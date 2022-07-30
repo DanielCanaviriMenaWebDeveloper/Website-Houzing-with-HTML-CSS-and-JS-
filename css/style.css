@@ -1,0 +1,43 @@
+/*==  Typography ==*/
+@font-face {
+    font-family: "Cerebri Sans";
+    src: url(../fonts/Cerebri-Sans/CerebriSans-Light.eot);
+    src: url(../fonts/Cerebri-Sans/CerebriSans-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Cerebri Sans";
+    src: url(../fonts/Cerebri-Sans/CerebriSans-Regular.eot);
+    src: url(../fonts/Cerebri-Sans/CerebriSans-Regular.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Cerebri Sans";
+    src: url(../fonts/Cerebri-Sans/CerebriSans-Bold.eot);
+    src: url(../fonts/Cerebri-Sans/CerebriSans-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/* 152 */
+body {
+    background-attachment: fixed;
+    background-color: #FFFFFF;
+    color: #777777;
+    font-family: Cerebri Sans;
+    font-size: 14px;
+    line-height: 1.642;
+    overflow-x: hidden;
+    transition: all .4s ease;
+}
+
+
+/* 235 */
+::selection {
+    background: #0D263B;
+    color: #FFFFFF;
+    text-shadow: none;
+}
