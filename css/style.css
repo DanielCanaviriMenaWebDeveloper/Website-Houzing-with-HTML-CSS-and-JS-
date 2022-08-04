@@ -1,4 +1,5 @@
 /* CSS Document */
+@import url(../css/font-awesome.min.css);
 @import url(../css/menu.css);
 @import url(../css/ace-responsive-menu.css);
 @import url(../css/simplebar.min.css);
@@ -45,10 +46,22 @@ img {
     max-width: 100%;
 }
 
+/* 198 */
+ul, ol{
+    list-style: none;
+}
+
 /* 208 */
 a {
     color: #555555;
     text-decoration: none;
+}
+
+/* 212 */
+a:hover, a:focus {
+    color: #333333;
+    text-decoration: none;
+    outline: none;
 }
 
 /* 216 */
@@ -78,6 +91,26 @@ header.header-nav a.navbar_brand {
     position: relative;
 }
 
+/* 1218 */
+header.header-nav.menu_style_home_one ul.ace-responsive-menu li.add_listing {
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    height: 45px;
+    position: relative;
+    text-align: center;
+    top: 18px;
+    width: 168px;
+}
+
+header.header-nav.menu_style_home_one ul.ace-responsive-menu li.add_listing a {
+    color: #0061DF;
+    font-family: Cerebri Sans;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 17px;
+    top: -20px;
+}
+
 /* 1297 */
 header.header-nav.menu_style_home_one a.navbar_brand {
     margin-top: 20px;
@@ -96,4 +129,51 @@ header.header-nav.menu_style_home_one a.navbar_brand span {
 /* 1347 */
 header.header-nav.menu_style_home_one .ace-responsive-menu li a {
     color: #FFFFFF;
+}
+
+/* 1634 */
+header.header-nav.menu_style_home_one .ace-responsive-menu > li > a {
+    font-family: Cerebri Sans;
+    padding: 33px 10px 30px;
+    text-transform: uppercase;
+}
+
+/* 1645 */
+header.header-nav.menu_style_home_one .ace-responsive-menu > li > a::before {
+    position: absolute;
+    content: "";
+    background-color: #FFFFFF;
+    height: 2px;
+    width: 0px;
+    bottom: 25px;
+    left: 10px;
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}
+
+/* 1660 */
+header.header-nav.menu_style_home_one .ace-responsive-menu > li:hover a::before {
+    opacity: 1;
+    width: 40%;
+}
+
+/* 2005 */
+header.header-nav.menu_style_home_one li.list_c a span {
+    vertical-align: middle;
+}
+
+/* 2008 */
+header.header-nav.menu_style_home_one li.list_c a::before, 
+header.header-nav.menu_style_home_one li.list_s a::before {
+    display: none;
+}
+
+/* 15518 */
+.btn {
+    border-radius: 3px;
+}
+
+/* 16658 */
+.mr-7 {
+    margin-right: 7px;
 }
