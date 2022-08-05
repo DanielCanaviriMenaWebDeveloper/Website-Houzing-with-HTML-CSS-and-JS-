@@ -102,6 +102,7 @@ header.header-nav.menu_style_home_one ul.ace-responsive-menu li.add_listing {
     width: 168px;
 }
 
+/* 1231 */
 header.header-nav.menu_style_home_one ul.ace-responsive-menu li.add_listing a {
     color: #0061DF;
     font-family: Cerebri Sans;
@@ -110,6 +111,14 @@ header.header-nav.menu_style_home_one ul.ace-responsive-menu li.add_listing a {
     line-height: 17px;
     top: -20px;
 }
+
+/* 1254 */
+header.header-nav.menu_style_home_one ul.ace-responsive-menu li.add_listing a span.icon {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+
 
 /* 1297 */
 header.header-nav.menu_style_home_one a.navbar_brand {
