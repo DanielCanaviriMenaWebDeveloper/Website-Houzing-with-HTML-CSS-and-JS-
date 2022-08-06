@@ -177,12 +177,62 @@ header.header-nav.menu_style_home_one li.list_s a::before {
     display: none;
 }
 
+/* 2450 */
+.home_content {
+    padding: 340px 0 400px;
+}
+
+/* 2453 */
+.home_content.home1.custom_width {
+    margin: 0 auto;
+    width: 67%;
+}
+
+/* 4433 */
+.home-one {
+    margin-top: -96px;
+    padding: 0;
+}
+
+/* 4619 */
+.home1-overlay{
+    position: relative;
+}
+
+/* 4621 */
+.home1-overlay::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    background-color: rgb(13, 38, 59);
+    opacity: 0.5;
+
+}
+
 /* 15518 */
 .btn {
     border-radius: 3px;
 }
 
+/* 16001 */
+.posr {
+    position: relative;
+}
+
 /* 16658 */
 .mr-7 {
     margin-right: 7px;
+}
+
+/* 16933 */
+.bg-home1 {
+    background-image: url(../images/home/1.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 860px;
+
 }
