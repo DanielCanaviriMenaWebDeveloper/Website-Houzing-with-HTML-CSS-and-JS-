@@ -77,6 +77,11 @@ a img {
     text-shadow: none;
 }
 
+/* 300 */ 
+p, ul, ol, dl, dt, dd, blockquote, address {
+    margin: 0 0 10px;
+}
+
 /* === HEADER  ===*/
 
 /* 1192 */
@@ -188,7 +193,10 @@ header.header-nav.menu_style_home_one li.list_s a::before {
     width: 67%;
 }
 
-.
+/* 2477 */
+.home_content .home-text p {
+    font-weight: normal;
+}
 
 /* 4433 */
 .home-one {
@@ -215,9 +223,19 @@ header.header-nav.menu_style_home_one li.list_s a::before {
 
 }
 
+/* 15160 */
+.color-white {
+    color: #FFFFFF !important;
+}
+
 /* 15518 */
 .btn {
     border-radius: 3px;
+}
+
+/* 15745 */
+.fz18 {
+    font-size: 18px;
 }
 
 /* 16001 */
