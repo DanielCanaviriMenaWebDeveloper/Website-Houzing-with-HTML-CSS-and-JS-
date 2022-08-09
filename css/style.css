@@ -77,6 +77,17 @@ a img {
     text-shadow: none;
 }
 
+/* 247 */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: Cerebri Sans;
+    line-height: 1.2;
+}
+
+/* 275 */
+h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
+    font-weight: 600;
+}
+
 /* 300 */ 
 p, ul, ol, dl, dt, dd, blockquote, address {
     margin: 0 0 10px;
@@ -198,6 +209,12 @@ header.header-nav.menu_style_home_one li.list_s a::before {
     font-weight: normal;
 }
 
+/* 4109 */
+.home-text h2 {
+    color: #FFFFFF;
+    margin-top: 0;
+}
+
 /* 4433 */
 .home-one {
     margin-top: -96px;
@@ -236,6 +253,11 @@ header.header-nav.menu_style_home_one li.list_s a::before {
 /* 15745 */
 .fz18 {
     font-size: 18px;
+}
+
+/* 15772 */
+.fz50 {
+    font-size: 50px;
 }
 
 /* 16001 */
