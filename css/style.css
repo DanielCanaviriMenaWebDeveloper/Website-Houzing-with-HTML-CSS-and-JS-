@@ -209,6 +209,12 @@ header.header-nav.menu_style_home_one li.list_s a::before {
     font-weight: normal;
 }
 
+/* 3130 */
+.home_tabs .nav-tabs {
+    border-bottom: none;
+}
+
+
 /* 4109 */
 .home-text h2 {
     color: #FFFFFF;
